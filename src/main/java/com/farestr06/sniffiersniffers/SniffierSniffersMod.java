@@ -35,9 +35,10 @@ public class SniffierSniffersMod
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        LOGGER.info("Wegistewing bwocks!! ^w^");
+        ModBlocks.register(modEventBus);
         LOGGER.info("Wegistewing items!! ^w^");
         ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
 
 
         // Register ourselves for server and other game events we are interested in.

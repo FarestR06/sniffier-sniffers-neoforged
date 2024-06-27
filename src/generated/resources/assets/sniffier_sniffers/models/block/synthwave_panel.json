@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/sculk_vein",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "particle": "sniffier_sniffers:block/synthwave_panel",
+    "sculk_vein": "sniffier_sniffers:block/synthwave_panel"
+  }
+}

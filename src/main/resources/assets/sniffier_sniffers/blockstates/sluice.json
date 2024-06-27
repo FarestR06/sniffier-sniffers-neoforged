@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "sniffier_sniffers:block/sluice"
+    },
+    "facing=east": {
+      "model": "sniffier_sniffers:block/sluice_side",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "sniffier_sniffers:block/sluice_side"
+    },
+    "facing=south": {
+      "model": "sniffier_sniffers:block/sluice_side",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sniffier_sniffers:block/sluice_side",
+      "y": 270
+    }
+  }
+}

@@ -1,5 +1,8 @@
-// 1.21	2024-06-25T17:41:05.949287	Item Models: sniffier_sniffers
+// 1.21	2024-06-26T16:06:27.961356	Item Models: sniffier_sniffers
+cf924a873f6eb2f81f9e20ad78a6e6227a1ed440 assets/sniffier_sniffers/models/item/macabre_block.json
 ee63b94786c53bfd93b9aa991addcff1b2c00f2e assets/sniffier_sniffers/models/item/macabre_ingot.json
 305ad8bf8cc81f53ea83293ff7a7a392b4723adb assets/sniffier_sniffers/models/item/macabre_nugget.json
+9435c2f774fabcdbd6e2abbe5943a24e87c55153 assets/sniffier_sniffers/models/item/pride_panel.json
 713a4f97d9e19083e2440bc7d560d277b79e7323 assets/sniffier_sniffers/models/item/raw_macabre.json
+9370e3a30229c966bc6b874335e2c07460bac1b9 assets/sniffier_sniffers/models/item/synthwave_panel.json
 351a6453facbaa164744ee2b29a4daaf351d5f23 assets/sniffier_sniffers/models/item/torchfruit.json

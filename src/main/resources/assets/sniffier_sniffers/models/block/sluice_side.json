@@ -1,0 +1,59 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"sluice": "sniffier_sniffers:block/sluice",
+		"particle": "sniffier_sniffers:block/hopper_outside"
+	},
+	"elements": [
+		{
+			"from": [0, 10, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [8, 8, 16, 11], "texture": "#sluice", "cullface": "north"},
+				"east": {"uv": [8, 8, 16, 11], "texture": "#sluice", "cullface": "east"},
+				"south": {"uv": [8, 8, 16, 11], "texture": "#sluice", "cullface": "south"},
+				"west": {"uv": [8, 8, 16, 11], "texture": "#sluice", "cullface": "west"},
+				"up": {"uv": [8, 8, 0, 0], "texture": "#sluice", "cullface": "up"},
+				"down": {"uv": [8, 0, 0, 8], "texture": "#sluice"}
+			}
+		},
+		{
+			"from": [4, 4, 4],
+			"to": [12, 10, 12],
+			"faces": {
+				"north": {"uv": [12, 11, 16, 14], "texture": "#sluice"},
+				"east": {"uv": [12, 11, 16, 14], "texture": "#sluice"},
+				"south": {"uv": [12, 11, 16, 14], "texture": "#sluice"},
+				"west": {"uv": [12, 11, 16, 14], "texture": "#sluice"},
+				"down": {"uv": [12, 11, 8, 15], "texture": "#sluice"}
+			}
+		},
+		{
+			"from": [6, 4, 0],
+			"to": [10, 8, 4],
+			"rotation": {"angle": 0, "axis": "x", "origin": [0, 4, -6]},
+			"faces": {
+				"north": {"uv": [12, 14, 14, 16], "texture": "#sluice"},
+				"east": {"uv": [12, 14, 14, 16], "texture": "#sluice"},
+				"south": {"uv": [12, 14, 14, 16], "texture": "#sluice"},
+				"west": {"uv": [12, 14, 14, 16], "texture": "#sluice"},
+				"down": {"uv": [16, 14, 14, 16], "texture": "#sluice", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 16, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 16, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 0], "texture": "#sluice"},
+				"east": {"uv": [0, 0, 8, 0], "texture": "#sluice"},
+				"south": {"uv": [0, 0, 8, 0], "texture": "#sluice"},
+				"west": {"uv": [0, 0, 8, 0], "texture": "#sluice"},
+				"up": {"uv": [8, 16, 0, 8], "texture": "#sluice"},
+				"down": {"uv": [16, 0, 8, 8], "texture": "#sluice"}
+			}
+		}
+	]
+}

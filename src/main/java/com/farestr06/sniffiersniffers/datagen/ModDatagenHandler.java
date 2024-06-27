@@ -20,7 +20,8 @@ public class ModDatagenHandler {
         ExistingFileHelper fileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
-        generator.addProvider(event.includeClient(), new ModItemModelProvider(output, fileHelper));
         generator.addProvider(event.includeClient(), new ModBlockStateProvider(output, fileHelper));
+        generator.addProvider(event.includeClient(), new ModItemModelProvider(output, fileHelper));
+        generator.addProvider(event.includeClient(), new ModLanguageProvider(output));
     }
 }

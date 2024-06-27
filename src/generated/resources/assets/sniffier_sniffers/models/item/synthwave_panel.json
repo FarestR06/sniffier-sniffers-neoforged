@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer_0": "sniffier_sniffers:block/synthwave_panel"
+  }
+}
